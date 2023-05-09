@@ -1,0 +1,140 @@
+@media (max-width:991px) {
+
+    /* cutom css */
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    /* Banner Section */
+    .banner_wrapper {
+        padding: 200px 0;
+    }
+
+
+    /* About */
+    .about_wrapper ul.nav-pills {
+        width: 56%;
+        margin: auto;
+    }
+
+    /* Portfolio Section */
+    .portfolio_section .card {
+        min-height: 400px;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    h1 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: none;
+    }
+
+    .about_wrapper ul li .nav-link {
+        font-size: 14px;
+    }
+
+    /* Portfolio Section */
+    .portfolio_section .card {
+        min-height: 500px;
+    }
+
+
+    /* Footer Section */
+    .footer-section {
+        min-height: 200px;
+    }
+}
+
+
+
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 32px;
+        line-height: 60px;
+        padding-top: 25px;
+    }
+
+    h2 {
+        font-size: 27px;
+        line-height: 32px;
+        padding-top: 25px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+
+
+    h6{
+        padding-top: 62px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .ml{
+        margin-left: 28px;
+    }
+
+    .banner_wrapper {
+        padding: 81px 0;
+        padding-bottom: 0;
+    }
+
+    .about_wrapper .tab-pane button {
+    width: 29%;
+    height: 30px;
+    padding: 0px;
+}
+    
+}
+

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS</title>
+
+  <link rel="icon" href="img/log1.png">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsivstyle.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top" id="#navbar">
+      <div class="container">
+        <!-- <img src="img/lg6.png" alt="log" class="img-fluid"  > -->
+        <a href="index.html" class="navbar-brand logo">Chinmay Swar</a>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Banner Section -->
+
+  <section class="banner_wrapper" id="home">
+    <div class="container">
+      <div class="row">
+        <!-- hide img on col xl -->
+        <img src="img/bk.png" alt="" class="mx-auto d-none d-xl-block img-bk " />
+        <div class="col-sm-12 text-center text-md-start">
+          <div id="particles-js"> </div>
+          <h6>WELCOME TO MY WORLD</h6>
+          <h1>I’m Chinmay Swar<br><span class="d-inline">Front-End/ Wordpress Developer.</span><br>based in India.</h1>
+          <!-- <div class="mt-4">
+            <a class="main-btn" href="">Download CV</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- lg screen col hide -->
+
+  <!-- About-US Section -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row justify-content-start algin-items-center">
+        <!-- lg screen col hide -->
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="img/2018-12-26-21-56-16-215.jpg" class="img-fluid rounded-3" alt="About Us">
+        </div>
+        <!-- lg screen p-let **imp col classs -->
+        <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+
+          <div class="my-3 mb-lg-0">
+            <span class="subtitle pb-3">My About Details</span>
+            <h2>About Me</h2>
+            <p>Hi, i'm Chinmay,Front-End Devloper/ Wordpress Devloper {CMS} i have completed my eduction in MCA from
+              jain college of engineering Belgavi,
+              I have a serious passion for designing webite UI, animations and creating intuitive, dynamic user
+              experiences.
+            </p>
+          </div>
+
+          <!-- nav-tab -->
+          <div class="pt-4">
+            <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+              role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill"
+                  type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Skills</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-courses-tab" data-bs-toggle="pill" data-bs-target="#pills-courses"
+                  type="button" role="tab" aria-controls="pills-courses" aria-selected="false">Courses</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance"
+                  aria-selected="false">Experiance</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                  aria-selected="false">Education</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+              <!-- Skills -->
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+
+                <div class="single-progress">
+                  <h6>Designing</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 75%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">75%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>Html/Css</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 85%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>Bootstrap</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 85%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>Worpress/Other{CMS}</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 85%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+
+                <div class="single-progress">
+                  <h6>JavaScript</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 50%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">50%</span>
+                </div>
+
+
+                <div class="single-progress">
+                  <h6>SEO</h6>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 70%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">70%</span>
+                </div>
+
+              </div>
+
+
+              <!-- Courses -->
+              <div class="tab-pane fade pt-3" id="pills-courses" role="tabpanel" aria-labelledby="pills-courses-tab">
+                <ul class="text-start ps-3">
+                  <li><a href="" data-bs-toggle="modal" data-bs-target="#bt-cert-1">Bootstrap
+                      <!-- <span class="d-inline ">- Certificate </span></a> -->
+                      <p class="span-no d-inline"> 2021 </p>
+                      <button type="button" class="btn btn-primary btn-sm">Certificate</button>
+                    </a>
+                  </li>
+
+                  <li><a href="" data-bs-toggle="modal" data-bs-target="#bt-cert-2">Google-Analytics
+                      <p class="span-no d-inline"> 2020 </p>
+                      <button type="button" class="btn btn-primary btn-sm">Certificate</button>
+                    </a>
+                  </li>
+
+                  <li><a href="" data-bs-toggle="modal" data-bs-target="#bt-cert-3">SEO
+                      <p class="span-no d-inline"> 2020 </p>
+                      <button type="button" class="btn btn-primary btn-sm">Certificate</button>
+                    </a>
+                  </li>
+
+                  <!-- <li class="pb-2 pt-3"><a href="" data-bs-toggle="modal-4" data-bs-target="#bt-cert">Google-Analytics
+                      <p class="span-no d-inline"> 2020 </p>
+                      <button type="button" class="btn btn-primary btn-sm">Certificate</button>
+                    </a>
+                  </li> -->
+
+                </ul>
+
+                <!-- Cerficate Modal -->
+
+                <div class="modal faed text-dark text-center" id="bt-cert-1" tabindex="-1" aria-labelledby="bt-cert-1"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg text-center">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="text-center" id="bt-cert-1">Bootstrap-Certificate </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <img src="img/Bootstrap-CE.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal faed text-dark text-center" id="bt-cert-2" tabindex="-1" aria-labelledby="bt-cert-2"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg text-center">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="text-center" id="bt-cert-2">Google-Analytics-Certificate </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <img src="img/Google-Analytics.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal faed text-dark text-center" id="bt-cert-3" tabindex="-1" aria-labelledby="bt-cert-3"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg text-center">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="text-center" id="bt-cert-3">SEO-Certificate </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-center">
+                        <img src="img/SEO.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Experiance -->
+              <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab">
+                <ul class="text-start ps-0">
+                  <li class="pb-2">
+                    <a href="#">Front-End Developer <span>Genora Infotech Pvt Ltd</span> { Intern }</a>
+                  </li>
+                  <li>
+                    <a href="#">Wordpress Developer <span>Growth 99</span></a>
+                  </li>
+
+                </ul>
+              </div>
+
+              <!-- Education -->
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                <ul class="text-start ps-0">
+
+                  <li class="pb-4">
+                    <a href="#">BCA <span>GVM's GGPR College of Commerce & Economics { GOA Universtiy } </span> </a>
+                  </li>
+                  <li>
+                    <a href="#">MCA <span>Jain College Of Engineering Belagavi { VTU Universtiy } </span></a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section exit -->
+
+  <!-- frontend-devlopment Website  -->
+  <!-- Wordpress Devlopemnt  -->
+  <!-- SEO -->
+  <!-- MOODLE / WIX -->
+
+  <!-- Services section -->
+  <section id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <span class="subtitle  mb-3">What I can do for you</span>
+          <h2>My Amazing Services</h2>
+          <p>Different services <br class="d-none d-md-block">offered by me!</p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="card border">
+            <div class="card-body text-center">
+              <img src="img/wordpress.png" alt="service" class="img-sec mb-4">
+              <h3>Wordpress Devlopemnt </h3>
+              <p>CMS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mb-4">
+          <div class="card border">
+            <div class="card-body text-center">
+              <img src="img/front.jpg" alt="service" class="img-sec mb-4 ">
+              <h3>Frontend-Development Website </h3>
+              <p>Html-5, CSS, javascript Bootstrap </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  mb-4">
+          <div class="card border">
+            <div class="card-body text-center">
+              <img src="img/Wix.com_website_logo.svg.png" alt="service" class="img-sec mb-4">
+              <h3> WIX Website Development </h3>
+              <p>CMS </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-1 g-5">
+        <div class="col-lg-4 col-md-4 offset-md-2 mb-4">
+          <div class="card border">
+            <div class="card-body text-center">
+              <img src="img/seo.png" alt="service" class="img-sec mb-4">
+              <h3>SEO</h3>
+              <p>Indexing webpagges to search engine from website </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  mb-4">
+          <div class="card border">
+            <div class="card-body text-center">
+              <img src="img/moodle.png" alt="service" class="img-sec mb-4">
+              <h3>MOODLE</h3>
+              <p class="mt-4">CMS { open-source online-learning management system } </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services section exit -->
+
+
+  <!-- Portfolio Sectrion -->
+  <section id="portfolio" class="portfolio_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Complete project</span>
+          <h2>My Latest Project</h2>
+          <p>Self Desgin project & <br class="d-none d-md-block">
+            Worked on company project.</p>
+
+          <div class="pt-4">
+            <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-self-tab" data-bs-toggle="pill" data-bs-target="#pills-self"
+                  type="button" role="tab" aria-controls="pills-self" aria-selected="true">Self-Project</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Company-Project-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-Company-Project" type="button" role="tab" aria-controls="pills-Company-Project"
+                  aria-selected="false">Company-Project</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Latest-Project-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-Latest-Project" type="button" role="tab" aria-controls="pills-Latest-Project"
+                  aria-selected="false">Latest-Project</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent-2">
+
+              <!-- Self -->
+              <div class="tab-pane fade show active" id="pills-self" role="tabpanel" aria-labelledby="pills-self-tab">
+                <div class="row">
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-1"
+                        style="background-image: url('./img/port/Camvision-Photo-Studio-–-capture-the-moment.png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-1" tabindex="-1" aria-labelledby="port-1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-1">Camvision-Photo-Studio</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/Camvision-Photo-Studio-–-capture-the-moment.png" alt=""
+                              class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h4 style="color: #fefeff;;">Desgined With Wordpress</h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-2"
+                        style="background-image: url('./img/port/Home-Beauty-of-Goa.png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-2" tabindex="-1" aria-labelledby="port-2"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-2">Beauty-of-Goa</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/Home-Beauty-of-Goa.png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                              <h5 style="color: #fefeff;"><a href="https://beautyofgoa.com/">beautyofgoa.com</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-3"
+                        style="background-image: url('./img/port/tech.png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-3" tabindex="-1" aria-labelledby="port-3"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-3">Tech</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/tech.png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Company-Project -->
+              <div class="tab-pane fade" id="pills-Company-Project" role="tabpanel"
+                aria-labelledby="pills-Company-Project-tab">
+
+                <div class="row">
+
+                  <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-c1"
+                        style="background-image: url('./img/port/p1\ \(1\).png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-c1" tabindex="-1" aria-labelledby="port-c1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-c1">lexaesthetics</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/p1 (1).png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-c2"
+                        style="background-image: url('./img/port/p1\ \(2\).png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-c2" tabindex="-1" aria-labelledby="port-c2"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-c2">holisticbeautyinnovations</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/p1 (2).png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-c3"
+                        style="background-image: url('./img/port/p1\ \(3\).png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-c3" tabindex="-1" aria-labelledby="port-c3"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-c3">dashmedicalspa</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/p1 (3).png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-md-4  offset-md-2 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-c4"
+                        style="background-image: url('./img/port/p1\ \(4\).png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-c4" tabindex="-1" aria-labelledby="port-c4"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-c4">aesthetics</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/p1 (4).png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-lg-4 col-md-4  mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-c5"
+                        style="background-image: url('./img/port/p1\ \(5\).png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-c5" tabindex="-1" aria-labelledby="port-c5"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-c5">rejuvenate</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/p1 (5).png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Wordpress</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- Latest-Project -->
+              <div class="tab-pane fade" id="pills-Latest-Project" role="tabpanel"
+                aria-labelledby="pills-Latest-Project-tab">
+                <div class="row">
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-s1"
+                        style="background-image: url('./img/port/One-Capital.png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-s1" tabindex="-1" aria-labelledby="port-s1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-s1">One-Capital</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/One-Capital.png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Bootstrap</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                      <span data-bs-toggle="modal" data-bs-target="#port-s2"
+                        style="background-image: url('./img/port/Ecomerce.png')"></span>
+                    </div>
+                  </div>
+
+                  <div class="modal faed text-dark text-center" id="port-s2" tabindex="-1" aria-labelledby="port-s2"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg text-center">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="text-center" id="port-s2">ECommerce</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center ss">
+                          <div class="card p-0 mb-2">
+                            <img src="./img/port/Ecomerce.png" alt="" class="img-fluid span">
+                            <div class="modal-footer mt-5 justify-content-center">
+                              <h6 style="color: #fefeff;">Desgined With Bootstrap</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+  </section>
+  <!-- Portfolio Section exit -->
+
+
+  <!-- Contact Section  -->
+
+  <section id="contact" class="contact_section">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <span class="subtitle">Ways To Conatct Me </span>
+        <h2 class="mt-4">Contact</h2>
+
+        <div class="row g-5 mt-1">
+
+          <div class="col-lg-4 col-md-4 offset-md-2 mb-4 ml">
+            <div class="card border" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="3000">
+              <div class="card-body text-center">
+                <div class="fb mb-3">
+                  <i class="fas fa-envelope fa-2xl" style="font-size: 40px;"></i>
+                </div>
+                <p>Email:<a href="mailto:chinmayswar18@gmail.com">
+                    chinmayswar18@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+
+  
+
+          <div class="col-lg-4 col-md-4 mb-4 ml">
+            <div class="card border"  data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="3000">
+              <div class="card-body text-center">
+                <div class="fb mb-3">
+                  <i class="fas fa-phone" style="font-size: 40px;"></i>
+                </div>
+                <p>Contact No:<a href="+919511636409">
+                    +919511636409</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section exit -->
+
+
+
+
+  <!-- Footer section -->
+  <section id="contact" class="footer-section mt-3 mt-md-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <div class="footer-logo mb-3 mb-md-0">
+            <img decoding="async" src="img/log1.png" >
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <ul
+            class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+            <li>
+              <a href="https://www.instagram.com/chinmay_swar/"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/people/Chinmay-Swar/pfbid01U1V3vBh18VpPGKjqDKhpgkUrabpq2SQAiG5sZV3Z5k59QjvUoGbe7m4F8WEPRMhl/?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i> </a>
+            </li>
+            <li>
+              <a href="https://chinmayswar182.wixsite.com/webdesigning"><i class="fab fa-wix"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/chinmay-swar-84945021b/"><i class="fab fa-linkedin-in"></i> </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0">Copyright © 2022 <a href="#">Chinmay Swar</a>. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section exit -->
+
+
+
+
+
+
+  <!-- Scroll Button -->
+  <div class="scroll-button">
+    <a href="#home" class="fas fa-arrow-up"></a>
+  </div>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+
+  <!-- animation -->
+  <script type="text/JavaScript" src="js/particles.js"></script>
+  <script type="text/JavaScript" src="js/app.js"></script>
+
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- custom Js link -->
+  <script src="js/main.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
