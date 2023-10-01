@@ -329,7 +329,7 @@ button {
 
 .about_wrapper ul li .nav-link.active {
     background-color: var(--primary-color);
-
+    padding-left: 21px;
 }
 
 .about_wrapper a {
@@ -535,8 +535,9 @@ button {
 
 .footer-section {
     background-color: var(--bg-dark-blue);
-    padding: 30px 0;
-    height: 100px;
+    padding: 30px 83px;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 .footer-section .footer-logo img {
@@ -587,6 +588,6 @@ button {
     padding: 10px 12px;
     font-size: 18px;
     border-radius: 6px;
-    box-shadow: rgba(196, 40, 40, 0.15);
-    display: none;
+    box-shadow: rgba(0,0,0,0.15);
+    /* display: none; */
 }
