@@ -1,16 +1,23 @@
 // header scroll
-let nav = document.querySelector(".navbar");
-
+let navbar = document.querySelector(".nav-m");
+let scrollBtn = document.querySelector(".scroll-button a");
 let val;
 
 
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {
-    nav.classList.add("header-scrolled");
+    navbar.classList.add("header-scrolled");
+    navbar.classList.add("sticky");
+    scrollBtn.style.display = "block";
   } else {
-    nav.classList.remove("header-scrolled")
+    navbar.classList.remove("header-scrolled");
+    navbar.classList.add("sticky");
+    scrollBtn.style.display = "none";
   }
 }
+
+
+
 
 
 
