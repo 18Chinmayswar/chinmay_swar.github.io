@@ -163,6 +163,7 @@
         background-size: cover;
         z-index: -3;
         margin-top: 20%;
+        display: none;
     }
 
     /* Footer Section */
