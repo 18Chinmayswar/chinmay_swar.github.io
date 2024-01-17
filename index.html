@@ -26,6 +26,8 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+  <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 
 
@@ -523,7 +525,7 @@
 
 
 
-                  <div class="col-lg-4 col-md-4 offset-md-4 mb-4">
+                  <div class="col-lg-4 col-md-6 offset-lg-4 mb-4">
                     <div class="card p-0">
                       <span data-bs-toggle="modal" data-bs-target="#port-3"
                         style="background-image: url('./img/port/tech.png')"></span>
@@ -811,14 +813,12 @@
   <!-- Contact Section  -->
 
   <section id="contact" class="contact_section">
-    <div class="container">
+    <div class="container-fluid">
       <div class="content--canvas"></div>
       <div class="row text-center align-items-center">
         <span class="subtitle">Ways To Conatct Me </span>
         <h2 class="mt-4">Contact</h2>
-
         <div class="row g-5 mt-1">
-
           <div class="col-lg-4 col-md-4 offset-md-2 mb-4 ml">
             <div class="card border" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
               <div class="card-body text-center">
@@ -944,11 +944,11 @@
     AOS.init();
   </script>
 
-<!-- bk animation -->
-<script src="js/noise.min.js"></script>
-<script src="js/util.js"></script>
-<script src="js/coalesce.js"></script>
 
+  <!-- bk animation -->
+  <script src="js/noise.min.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/coalesce.js"></script>
 
 
 </body>
