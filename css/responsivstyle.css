@@ -154,15 +154,15 @@
 
 /* Contact Section */
 .content--canvas {
- min-height: 176%;
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -3;
-    margin-top: -2%;
-    padding-left: 3%
+    min-height: 217%;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -3;
+        margin-top: -2%;
+        padding-left: 3%
 }
 
 }
