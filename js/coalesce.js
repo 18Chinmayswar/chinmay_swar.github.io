@@ -127,9 +127,10 @@ function createCanvas() {
 		b: document.createElement('canvas')
 	};
 	canvas.b.style = `
-  position: absolute;
-  width: 91%;
-  height: 82%;
+   position: absolute;
+  max-height: 80%;
+  width: 95%;
+  height: 99%;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
