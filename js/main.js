@@ -30,6 +30,16 @@ navBar.forEach(function (a) {
   })
 })
 
+// text animation
+
+document.addEventListener('DOMContentLoaded', function () {
+  var typing = new Typed(".text", {
+      strings: ["", "Front-End / Wordpress Developer."],
+      typeSpeed: 120,
+      backSpeed: 140,
+      loop: true,
+  });
+});
 
 
 
